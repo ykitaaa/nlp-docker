@@ -12,9 +12,9 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM tennen/jumanpp-alpine AS jumanpp
+FROM tennen/nlp-docker:jumanpp AS jumanpp
 
-FROM tennen/knp-alpine AS knp
+FROM tennen/nlp-docker:knp AS knp
 
 FROM ruby:2.5.3-alpine3.8
 
